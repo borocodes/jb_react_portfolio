@@ -1,16 +1,16 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle, AiFillTwitterSquare } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
+import { FaPhoenixFramework } from 'react-icons/fa';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span} from './HeaderStyles';
+import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span, Logo} from './HeaderStyles';
 
 const Header = () =>  (
   <Container>
     <Div1>
       <Link href="/">
         <a style={{display: "flex", alignItems: "center", color: "white", marginBottom: '20px'}}>
-          <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+          <FaPhoenixFramework size="3rem" /> <Span>Borocodes</Span>
         </a>
       </Link>
     </Div1>
