@@ -1,5 +1,5 @@
 //Overall default theme for portfolio
-//TODO: play around with theme to make something cool
+//TODO: play around with theme to make something
 
 export default {
   // Temp fonts
