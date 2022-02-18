@@ -81,6 +81,7 @@ export const CompanyContainer = styled.div`
 `
 
 
+//change font for slogan and make it pop a little more
 export const Slogan = styled.p`
 	color: rgba(255, 255, 255, 0.5);
 	min-width: 280px;
