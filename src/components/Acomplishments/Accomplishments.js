@@ -10,7 +10,7 @@ const data = [
   { number: 5000, text: 'Github Stars', }
 ];
 
-const Acomplishments = () => (
+const Accomplishments = () => (
   <Section>
     <SectionTitle>Personal Accomplishments</SectionTitle>
     <Boxes>
@@ -24,4 +24,4 @@ const Acomplishments = () => (
   </Section>
 );
 
-export default Acomplishments;
+export default Accomplishments;
