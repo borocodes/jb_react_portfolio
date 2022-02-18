@@ -38,6 +38,7 @@ export const projects = [
 ];
 
 export const TimeLineData = [
+  { year: 2011, text: 'Graduated with a Bachelor of Science degree'},
   { year: 2012, text: 'Began my career in financial services as a teller at Credit Union of America', },
   { year: 2015, text: 'Expanded my skills into new accounts and loans at CUA', },
   { year: 2017, text: 'Moved into mortgage lending with Fidelity Bank', },
