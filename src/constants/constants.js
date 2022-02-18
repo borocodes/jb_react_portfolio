@@ -38,9 +38,10 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2012, text: 'Began my career in financial services as a teller at Credit Union of America', },
+  { year: 2015, text: 'Expanded my skills into new accounts and loans at CUA', },
+  { year: 2017, text: 'Moved into mortgage lending with Fidelity Bank', },
+  { year: 2020, text: `Wrote my first line of code. Yes, it was 'Hello World!'`, },
+  { year: 2021, text: 'Graduated from Thinkful as a Software Engineer', },
+  { year: 2022, text: `Want to be a part of my story? Let's talk!`, }
 ];
