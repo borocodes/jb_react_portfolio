@@ -35,7 +35,6 @@ export const TitleContent = styled.div`
   text-align: center;
   z-index: 20;
   width: 100%;
-
 `;
 
 
@@ -44,6 +43,7 @@ export const HeaderThree = styled.h3`
   letter-spacing: 2px;
   color: #9cc9e3;
   padding: .5rem 0;
+  margin-top: 15px;
   font-size: ${(props) => props.title ? '3rem' : '2rem'};
 `;
 
@@ -73,6 +73,7 @@ export const CardInfo = styled.p`
   font-style: 2rem;
   line-height: 24px;
   text-align: justify;
+  margin-bottom: 15px;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
   
