@@ -47,10 +47,10 @@ const Timeline = () => {
       <SectionDivider />
       <SectionTitle style={{marginTop: 20}}>About Me</SectionTitle>
       <SectionText>
-      I'm a former financial services expert with nearly a decade of experience. I'm an analytical, resourceful, dedicated problem solver who decided to build a career around my skills. I taught myself coding basics for 9 months before attending a bootcamp where I spent over 1000 hours learning not just how to code, but how to be a valuable member of any developer team.
+      I'm a former financial services expert with nearly a decade of banking experience. I'm an analytical, resourceful, dedicated problem solver who decided to build a career around those skills. That led me to pursue coding. I taught myself coding basics for 9 months before attending a bootcamp where I spent over 1000 hours learning not just how to code, but how to be a valuable member of any development team. 
       <br />
       <br />
-      I'm always learning something new because I have a natural curiosity for how things work (if Wikipedia rabbitholing was a sport I would be the Tom Brady of that sport). I like video games, mechanical keyboards, history, and many other nerdy interests.
+      I'm always learning something new because I have a natural curiosity for how things work (if Wikipedia rabbit holes were a sport, I would be the Tom Brady of that sport). I like video games, memes, mechanical keyboards, history, and many other nerdy interests.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
