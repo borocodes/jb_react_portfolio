@@ -1,15 +1,37 @@
-import Link from 'next/link';
-import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle, AiFillTwitterSquare } from 'react-icons/ai';
-import { FaPhoenixFramework } from 'react-icons/fa';
+import Link from "next/link";
+import React from "react";
+import {
+  AiFillGithub,
+  AiFillInstagram,
+  AiFillLinkedin,
+  AiFillTwitterCircle,
+  AiFillTwitterSquare,
+} from "react-icons/ai";
+import { FaPhoenixFramework } from "react-icons/fa";
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span, Logo} from './HeaderStyles';
+import {
+  Container,
+  Div1,
+  Div2,
+  Div3,
+  NavLink,
+  SocialIcons,
+  Span,
+  Logo,
+} from "./HeaderStyles";
 
-const Header = () =>  (
+const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{display: "flex", alignItems: "center", color: "white", marginBottom: '20px'}}>
+        <a
+          style={{
+            display: "flex",
+            alignItems: "center",
+            color: "white",
+            marginBottom: "20px",
+          }}
+        >
           <FaPhoenixFramework size="3rem" /> <Span>Borocodes</Span>
         </a>
       </Link>
@@ -42,7 +64,7 @@ const Header = () =>  (
         <AiFillTwitterSquare size="3rem" />
       </SocialIcons>
     </Div3>
-    </Container>
+  </Container>
 );
 
 export default Header;

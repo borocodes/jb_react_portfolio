@@ -1,13 +1,24 @@
-import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
-import { FaRegHandshake } from 'react-icons/fa'
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import React from "react";
+import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { FaRegHandshake } from "react-icons/fa";
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import {
+  List,
+  ListContainer,
+  ListItem,
+  ListParagraph,
+  ListTitle,
+} from "./TechnologiesStyles";
 
-const Technologies = () =>  (
+const Technologies = () => (
   <Section id="tech">
-    <SectionDivider/>
-    <SectionTitle style={{marginTop: 20}}>Technologies</SectionTitle>
+    <SectionDivider />
+    <SectionTitle style={{ marginTop: 20 }}>Technologies</SectionTitle>
     <SectionText>
       Here are some of the technologies that I have worked with:
     </SectionText>
@@ -33,7 +44,7 @@ const Technologies = () =>  (
             Node.js <br />
             Express.js <br />
             MongoDB <br />
-            PostgreSQL 
+            PostgreSQL
           </ListParagraph>
         </ListContainer>
       </ListItem>

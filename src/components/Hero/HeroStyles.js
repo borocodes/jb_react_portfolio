@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const LeftSection = styled.div`
   width: 100%;
@@ -17,5 +17,3 @@ export const LeftSection = styled.div`
     margin: 0 auto;
   }
 `;
-
-
