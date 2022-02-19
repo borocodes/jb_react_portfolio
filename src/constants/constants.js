@@ -39,10 +39,10 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2011, text: 'Graduated with a Bachelor of Science degree'},
-  { year: 2012, text: 'Began my career in financial services as a teller at Credit Union of America', },
-  { year: 2015, text: 'Expanded my skills into new accounts and loans at CUA', },
+  { year: 2012, text: 'Began my career in financial services at Credit Union of America', },
+  { year: 2016, text: 'Finished as a top 5 sales performer across the entire Credit Union', },
   { year: 2017, text: 'Moved into mortgage lending with Fidelity Bank', },
-  { year: 2020, text: `Wrote my first line of code. Yes, it was 'Hello World!'`, },
+  { year: 2020, text: `Wrote my first line of code. And yes, it was "Hello World!"`, },
   { year: 2021, text: 'Graduated from Thinkful as a Software Engineer', },
   { year: 2022, text: `Want to be a part of my story? Let's talk!`, }
 ];

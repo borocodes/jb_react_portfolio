@@ -15,9 +15,9 @@ const Hero = (props) => (
         I'm glad you're here
       </SectionTitle>
       <SectionText>
-      Lucas ipsum dolor sit amet ackbar wicket vader solo moff cade bothan han kashyyyk binks. Solo jar wampa dagobah tatooine coruscant owen jade owen. Qui-gon organa calamari leia.
+        I'm a fullstack developer who is passionate about creating professional, modern frontend designs and connecting them to powerful backend infastructure. I'd love to have a conversation about what I can do for you. Take a look around and feel free to reach out to me!
       </SectionText>
-      <Button>Get in touch</Button> 
+      <Button onClick={() => window.location = 'mailto:jonborofsky@gmail.com'}>Get in touch</Button> 
     </LeftSection>
   </Section>
 );
