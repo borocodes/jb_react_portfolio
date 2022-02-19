@@ -18,12 +18,12 @@ export const projects = [
     id: 1,
   },
   {
-    title: 'Grubdash',
-    description: "A food delivery service created just in time for your 10-day quarantine. Demonstrates intermediate API capabilities of Node.js and Express.js while adhering to the design principles of representational state transfer (REST). Uses two datasets: Orders and Dishes",
-      image: '/images/grubdash.png',
-      tags: ['React', 'Node', 'Express', 'PostgreSQL'],
-    source: 'https://github.com/borocodes/GrubDash-Backend',
-    visit: 'https://google.com',
+    title: 'Periodic Tables',
+    description: "A fullstack application that allows restaurant staff to add, edit, and delete reservations. This was the first fullstack app I built from scratch.",
+      image: '/images/periodicTables.png',
+      tags: ['React', 'Node', 'Express', 'PostgreSQL', 'Tons of coffee'],
+    source: 'https://github.com/borocodes/restaurant-reservation-main',
+    visit: 'https://dry-brook-13595.herokuapp.com',
     id: 2,
   },
   {
