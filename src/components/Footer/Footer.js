@@ -1,12 +1,15 @@
 import React from 'react';
 import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle, AiFillTwitterSquare } from 'react-icons/ai';
+import { SectionTitle } from '../../styles/GlobalComponents';
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 
 const Footer = () => {
   return (
+    
     <FooterWrapper>
+      <SectionTitle>Contact</SectionTitle>
       <LinkList>
         <LinkColumn>
         <LinkTitle>Call</LinkTitle>
@@ -14,7 +17,7 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
         <LinkTitle>Email</LinkTitle>
-        <LinkItem href='mailtoLjonborofsky@gmail.com'>jonborofsky@gmail.com</LinkItem>
+        <LinkItem href='mailto:jonborofsky@gmail.com'>jonborofsky@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
