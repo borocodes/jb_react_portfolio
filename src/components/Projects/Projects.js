@@ -29,7 +29,6 @@ const Projects = () => (
           <UtilityList>
             {/* <ExternalLinks href={visit}>Demo</ExternalLinks> */}
             <ExternalLinks href={source}>Code</ExternalLinks>
-            <ExternalLinks href={visit}>Demo</ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}
