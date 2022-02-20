@@ -80,10 +80,25 @@ export const CompanyContainer = styled.div`
 
 //change font for slogan and make it pop a little more
 export const Slogan = styled.p`
-  color: rgba(255, 255, 255, 0.5);
+  background: linear-gradient(270deg, #ff622e, #B133FF, #00DBD8, #B133FF);
+  font-weight: 900;
+	font-size: 5vw;
+	letter-spacing: -5px;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animated_text 10s ease-in-out infinite;
+	-moz-animation: animated_text 10s ease-in-out infinite;
+	-webkit-animation: animated_text 15s ease-in-out infinite;
+
+	@keyframes animated_text {
+		0% { background-position: 0px 50%; }
+		50% { background-position: 100% 50%; }
+		100% { background-position: 0px 50%; }
+	}
+
   min-width: 280px;
   letter-spacing: 0.02em;
-  font-size: 18px;
+  font-size: 40px;
   line-height: 30px;
   padding: 1rem;
 

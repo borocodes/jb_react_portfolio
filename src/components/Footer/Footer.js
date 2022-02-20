@@ -23,7 +23,7 @@ import {
 const Footer = () => {
   return (
     <FooterWrapper>
-      <SectionTitle>Contact</SectionTitle>
+      <SectionTitle>Connect With Me</SectionTitle>
       <LinkList>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
@@ -48,7 +48,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Let's build something together!</Slogan>
+          <Slogan>Let's build something. Together.</Slogan>
         </CompanyContainer>
         {/* <SocialIcons href="https://github.com/borocodes">
         <AiFillGithub size="3rem" />
